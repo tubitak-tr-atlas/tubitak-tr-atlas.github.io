@@ -6,6 +6,7 @@
     <title>TÜBİTAK Türkçe Atlas</title>
     <style>
         body {
+            /*bu arkaplanı kitap yapıyo diğer ana ekrandada var*/
             background-image: url("https://png.pngtree.com/png-vector/20231115/ourmid/pngtree-old-book-page-png-image_10524548.png");
             background-size: 72.5% auto;
             background-repeat: no-repeat;
@@ -14,9 +15,10 @@
         }
         button {
             border-radius: 7px;
-            padding: 2px !important;
+            padding: 2px !important;/*!important ise bu önemli sadece buna uy diyo 2 farklı değer varsa gerekir bu arada padding buton içi metin boşluğu yani büyüklüğü gibi bişi butonun*/
             background-color: #f0d4b4;
         }
+
     </style>
 </head>
 <body style="background-color:#E5E5E5;">
@@ -33,13 +35,17 @@
         <a href="kelimeYavuz.html" target="_blank">
         <button style="position: absolute; top: 114px; left: 500px;">Yavuz</button>
         </a> 
-
+        <!--</buton> kısmından önce yazan kelime-->
         <a href="kelimeDert.html" target="_blank">
         <button style="position: absolute; top: 114px; left: 560px;">Dert</button>
         </a> 
         <!--buda EĞLENCE-->
         <a href="kelimeEglence.html" target="_blank">
         <button style="position: absolute; top: 114px; left: 620px;">Eğlence</button>
+        </a> 
+
+        <a href="kelimeEdep.html" target="_blank">
+        <button style="position: absolute; top: 114px; left: 700px;">Edep</button>
         </a> 
     </div>
    <!--bu sayfa atlama--> 
